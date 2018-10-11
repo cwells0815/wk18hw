@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('public'));
 
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_b2nqnzbd:bstj80dk46kd2jdl5cshja6prc@ds229373.mlab.com:29373/heroku_b2nqnzbd";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_1rcnll98:qpuhbmdfscqtl26kpp0c6jvbol@ds129393.mlab.com:29393/heroku_1rcnll98";
 
 
 // Connect to the Mongo DB - leverage built in JavaScript ES6 Promises
