@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alewdy/mongo-scrape-hw.git"
+    "url": "git+https://github.com/cwells0815/wk18hw.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alewdy/mongo-scrape-hw/issues"
+    "url": "https://github.com/cwells0815/wk18hw/issues"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
