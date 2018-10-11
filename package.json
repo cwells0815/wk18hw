@@ -1,21 +1,29 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "mongo-hw-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a Node.js application that utilizes Cheerio and a MongoDB back-end to scrape and save NYT articles to a Bootstrap UI.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alewdy/mongo-scrape-hw.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alewdy/mongo-scrape-hw/issues"
+  },
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "cheerio": "^0.20.0",
-    "express": "^4.13.4",
-    "mongod": "^2.0.0",
-    "mongoose": "^4.4.6",
-    "morgan": "^1.7.0",
-    "request": "^2.69.0"
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.16",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
   }
 }
